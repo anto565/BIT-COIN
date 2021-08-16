@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BIT COIN</title>
+    <link rel="icon" type="image/x-icon" href="img/bit-coin-top-logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+</head>
+
+<body>
+    <!--背景-->
+    <section class="hero is-fullheight" style="background: url(img/bitcoin.jpg) center">
+        <div class="hero-body">
+            <!--嘘ロード＋送信-->
+            <div id="app" class="container">
+
+                <!--上の見出し（ロゴ）-->
+                <div class="notification is-warning">
+                    <h1 class="t itle is-size-1">
+                        BIT COIN<img src="img/bitcoin-logo.png" border="0" alt="サンプル" width="200" height="100">
+                    </h1>
+
+                    <!--段落＋内容-->
+                    <p class="is-size-3">皆さんはクリックすることができます。</p>
+                    <p class="is-size-3">このことを生かして200万円稼ぐ方法を教えます。あなたも億万長者になりましょう。</p>
+                </div>
+                <div v-if="seen" class="notification is-warning">
+                    <progress class="progress is-small is-dark" max="100">0%</progress>
+                    <p class="is-size-4">{{ message }}</p>
+                </div>
+                <!--リンクボタン-->
+                <button v-on:click="move" class="button is-warning is-large">BIT COINから出金</button>
+            </div>
+        </div>
+    </section>
+    <!--js+VueJS-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
