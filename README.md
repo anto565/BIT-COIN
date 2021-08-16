@@ -1,7 +1,7 @@
 # BIT-COIN
-はフェイクですお気をつけ下さい
+BIT-COINはフェイクですお気をつけ下さい
 ダウンロードすることをおすすめしません
 
 # BIT-COIN
-Is fake, please be careful
+BIT-COIN Is fake, please be careful
 Not recommended to download
